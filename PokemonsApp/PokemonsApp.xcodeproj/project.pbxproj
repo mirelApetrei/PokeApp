@@ -18,6 +18,8 @@
 		978D95C72AEAB5C2007857E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978D95C62AEAB5C2007857E6 /* Preview Assets.xcassets */; };
 		978D95C92AEAB5C2007857E6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D95C82AEAB5C2007857E6 /* Persistence.swift */; };
 		978D95CC2AEAB5C2007857E6 /* PokemonsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 978D95CA2AEAB5C2007857E6 /* PokemonsApp.xcdatamodeld */; };
+		97C7EC192AED685200D39F78 /* Pokemon+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C7EC182AED685200D39F78 /* Pokemon+Ext.swift */; };
+		97C7EC1E2AED6F7F00D39F78 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C7EC1D2AED6F7F00D39F78 /* Stats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		978D95C62AEAB5C2007857E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		978D95C82AEAB5C2007857E6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		978D95CB2AEAB5C2007857E6 /* PokemonsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PokemonsApp.xcdatamodel; sourceTree = "<group>"; };
+		97C7EC182AED685200D39F78 /* Pokemon+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon+Ext.swift"; sourceTree = "<group>"; };
+		97C7EC1D2AED6F7F00D39F78 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +72,14 @@
 				978D95BF2AEAB5C1007857E6 /* PokemonsAppApp.swift */,
 				976AD4D62AEB84BC009F0B9B /* PokemonDetail.swift */,
 				976AD4D82AEB86BD009F0B9B /* SamplePokemon.swift */,
+				97C7EC1D2AED6F7F00D39F78 /* Stats.swift */,
 				976AD4D42AEB1AB7009F0B9B /* PokemonViewModel.swift */,
 				976AD4D02AEAFFCD009F0B9B /* TempPokemon.swift */,
 				976AD4D22AEB1300009F0B9B /* FetchController.swift */,
 				978D95C12AEAB5C1007857E6 /* ContentView.swift */,
 				978D95C32AEAB5C2007857E6 /* Assets.xcassets */,
 				978D95C82AEAB5C2007857E6 /* Persistence.swift */,
+				97C7EC182AED685200D39F78 /* Pokemon+Ext.swift */,
 				978D95CA2AEAB5C2007857E6 /* PokemonsApp.xcdatamodeld */,
 				978D95C52AEAB5C2007857E6 /* Preview Content */,
 			);
@@ -159,8 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				978D95C92AEAB5C2007857E6 /* Persistence.swift in Sources */,
+				97C7EC1E2AED6F7F00D39F78 /* Stats.swift in Sources */,
 				976AD4D72AEB84BC009F0B9B /* PokemonDetail.swift in Sources */,
 				978D95CC2AEAB5C2007857E6 /* PokemonsApp.xcdatamodeld in Sources */,
+				97C7EC192AED685200D39F78 /* Pokemon+Ext.swift in Sources */,
 				976AD4D32AEB1300009F0B9B /* FetchController.swift in Sources */,
 				976AD4D92AEB86BD009F0B9B /* SamplePokemon.swift in Sources */,
 				976AD4D52AEB1AB7009F0B9B /* PokemonViewModel.swift in Sources */,
