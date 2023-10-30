@@ -88,6 +88,8 @@
 		97C7EC392AEDBA4900D39F78 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		97C7EC3B2AEDBA4B00D39F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C7EC3D2AEDBA4B00D39F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97C7EC4B2AEFB43200D39F78 /* PokemonsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PokemonsApp.entitlements; sourceTree = "<group>"; };
+		97C7EC4C2AEFB4C400D39F78 /* PokeWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PokeWidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		978D95BE2AEAB5C1007857E6 /* PokemonsApp */ = {
 			isa = PBXGroup;
 			children = (
+				97C7EC4B2AEFB43200D39F78 /* PokemonsApp.entitlements */,
 				978D95BF2AEAB5C1007857E6 /* PokemonsAppApp.swift */,
 				97C7EC262AEDB28300D39F78 /* Views */,
 				97C7EC242AEDB20100D39F78 /* ViewModel */,
@@ -211,6 +214,7 @@
 		97C7EC322AEDBA4900D39F78 /* PokeWidget */ = {
 			isa = PBXGroup;
 			children = (
+				97C7EC4C2AEFB4C400D39F78 /* PokeWidgetExtension.entitlements */,
 				97C7EC332AEDBA4900D39F78 /* PokeWidgetBundle.swift */,
 				97C7EC352AEDBA4900D39F78 /* PokeWidgetLiveActivity.swift */,
 				97C7EC372AEDBA4900D39F78 /* PokeWidget.swift */,
@@ -491,6 +495,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PokemonsApp/PokemonsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PokemonsApp/Preview Content\"";
@@ -521,6 +526,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PokemonsApp/PokemonsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PokemonsApp/Preview Content\"";
@@ -550,6 +556,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PokeWidget/PokeWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CTTMXX3X92;
@@ -577,6 +584,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PokeWidget/PokeWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CTTMXX3X92;
