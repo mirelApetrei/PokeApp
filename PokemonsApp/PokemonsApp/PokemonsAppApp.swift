@@ -18,3 +18,4 @@ struct PokemonsAppApp: App {
         }
     }
 }
+
